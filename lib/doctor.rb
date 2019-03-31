@@ -15,4 +15,7 @@ class Name
   def new_appointment (patient, date)
     Appointment.name(date, patient, self)
   end
+  
+  def appointments
+    
 end
