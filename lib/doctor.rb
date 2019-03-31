@@ -21,5 +21,6 @@ class Name
   end
   
   def patients
-    appointments.map
+    appointments.map {|a| a.patient}
+  end
 end
