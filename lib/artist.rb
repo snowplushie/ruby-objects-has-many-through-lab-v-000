@@ -20,3 +20,6 @@ end
 def songs
   Song.all.select {|s| s.artist == self}
 end
+
+def genre
+  Genre.all.select {|g| g.
