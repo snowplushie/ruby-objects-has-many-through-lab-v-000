@@ -13,4 +13,5 @@ class Name
   end
   
   def new_appointment (patient, date)
+    App
 end
