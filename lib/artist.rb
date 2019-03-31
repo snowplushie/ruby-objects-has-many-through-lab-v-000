@@ -18,4 +18,4 @@ def new_song(name, genre)
 end
 
 def songs
-  Song
+  Song.all.select {|s| s.
