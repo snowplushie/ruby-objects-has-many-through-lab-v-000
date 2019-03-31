@@ -19,4 +19,7 @@ class Patient
   def appointments
     Appointment.al.select {|a| a.patient == self }
   end
+  
+  def doctors
+    
 end
