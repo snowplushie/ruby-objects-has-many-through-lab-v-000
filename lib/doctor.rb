@@ -17,5 +17,5 @@ class Name
   end
   
   def appointments
-    
+    Appointment.all.select {|p|
 end
