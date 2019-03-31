@@ -13,5 +13,5 @@ class Genre
   end
   
   def songs
-    Songs.new.select
+    Songs.all.select {|s| s.songs
 end
