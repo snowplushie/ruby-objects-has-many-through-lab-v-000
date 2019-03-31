@@ -17,5 +17,5 @@ class Genre
   end
   
   def artists
-    song
+    songs.map 
 end
