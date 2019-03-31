@@ -7,19 +7,20 @@ class Artist
     @name = name
     @@all << self
   end
-end
 
-def self.all
-  @@all
-end
+  def self.all
+    @@all
+  end
 
-def new_song(name, genre)
-  Song.new(name, self, genre)
-end
+  def new_song(name, genre)
+    Song.new(name, self, genre)
+  end
 
-def songs
-  Song.all.select {|s| s.artist == self}
-end
+  def songs
+    Song.all.select {|s| s.artist == self}
+  end
 
-def genre
-  Genre.all.select {|g| g.
+  def genre
+    song.map {|s| s.genre}
+  end
+end
