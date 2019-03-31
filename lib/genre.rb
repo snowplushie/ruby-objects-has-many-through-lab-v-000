@@ -11,4 +11,7 @@ class Genre
   def self.all
     @@all
   end
+  
+  def songs
+    Songs.new.select
 end
